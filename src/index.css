@@ -1,0 +1,27 @@
+
+/*font usage in all appliucation external fonts load krna*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+a.active hr{
+  display: block;
+}
+*{
+  font-family: outfit;
+}
+.Prata-regular{
+  font-family: "prata",serif;
+  font-style: normal;
+  font-weight: 400;
+/*scroll bar hide*/
+  ::-webkit-scrollbar{
+    display: none;
+  }
+}
+@media (max-width:640px){
+  a.active{
+    background-color: black;
+    color: white;
+  }
+}
